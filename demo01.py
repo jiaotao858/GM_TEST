@@ -74,6 +74,8 @@ print(driver.find_element_by_class_name('layui-layer-content').text)
 time.sleep(10)
 driver.quit()
 print("测试远程更新！")
+
+print ("测试push是否成功")
 #关闭chormedriver
 # def check_exsit(process_name):
 #     WMI = win32com.client.GetObject('winmgmts:')

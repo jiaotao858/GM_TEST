@@ -6,6 +6,7 @@ def suite():
     suiteTest.addTest(PythonOrgSearch('test_register'))
     suiteTest.addTest(PythonOrgSearch('test_login'))
     return suiteTest
+	print("aaaaaaa")
 
 if __name__ == '__main__':
     runner = unittest.TextTestRunner()

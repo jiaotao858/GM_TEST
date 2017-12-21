@@ -76,6 +76,8 @@ driver.quit()
 print("测试远程更新！")
 
 print ("测试push是否成功")
+
+print ("测试pull上传")
 #关闭chormedriver
 # def check_exsit(process_name):
 #     WMI = win32com.client.GetObject('winmgmts:')
